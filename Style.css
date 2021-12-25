@@ -1,0 +1,42 @@
+body{
+    background:#ee0059;
+    font-family: "Raleway";
+}
+.form{
+    width: 300px;
+}
+.form .form-group{
+    position: relative;
+}
+.form .form-group input{
+    width: 300%;
+    padding: 10px;
+    font-size:18px;
+    border:1px solid #888;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 50px;
+    outline: none;
+    text-indent: 10px;
+}
+.form .form-group .toggle-password{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top:2px;
+    right:2px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.form .form-group .toggle-password.active i.fa-eye {
+  display:none;
+}
+.form .form-group .toggle-password.active i.fa-eye-slash {
+  display:inline;
+}
+.form .form-group.toggle-password i.fa-eye-slash {
+  display:none;
+}
